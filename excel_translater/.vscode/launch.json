@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Flutter Edge (No Sandbox)",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--web-browser-flag=--no-sandbox",
+                "--web-browser-flag=--disable-setuid-sandbox",
+                "--web-hostname", "127.0.0.1",
+                "--web-port", "8080"
+            ]
+        }
+    ]
+}
